@@ -1,5 +1,4 @@
 {
-    "baseUrl": "https://alishchhetri.github.io/website",
     "main": {
         "center": "Home",
         "subs": [
@@ -103,73 +102,6 @@
         ],
         "parent": "projects"
     },
-    "blog": {
-        "center": "Blog",
-        "subs": [
-            {
-                "name": "BeReal Analysis",
-                "type": "page",
-                "path": "/pages/blog/bereal.html"
-            },
-            {
-                "name": "Queerness in Games",
-                "type": "page",
-                "path": "/pages/blog/queer_gaming.html"
-            },
-            {
-                "name": "Online Extremism",
-                "type": "page",
-                "path": "/pages/blog/online_extremism.html"
-            },
-            {
-                "name": "Tradwife Movement",
-                "type": "page",
-                "path": "/pages/blog/tradwife_movement.html"
-            },
-            {
-                "name": "Netflix Algorithms",
-                "type": "page",
-                "path": "/pages/blog/netflix_algorithms.html"
-            },
-            {
-                "name": "More",
-                "type": "directory",
-                "path": "blog_more"
-            }
-        ],
-        "parent": "main"
-    },
-    "blog_more": {
-        "center": "Blog",
-        "subs": [
-            {
-                "name": "Digital Mourning",
-                "type": "page",
-                "path": "/pages/blog/digital_mourning.html"
-            },
-            {
-                "name": "",
-                "type": "empty"
-            },
-            {
-                "name": "",
-                "type": "empty"
-            },
-            {
-                "name": "",
-                "type": "empty"
-            },
-            {
-                "name": "",
-                "type": "empty"
-            },
-            {
-                "name": "",
-                "type": "empty"
-            }
-        ],
-        "parent": "blog"
-    },
     "experience": {
         "center": "Experience",
         "subs": [
@@ -181,12 +113,12 @@
             {
                 "name": "Software Developer",
                 "type": "page",
-                "path": "/pages/experience/software_dev.html"
+                "path": "/pages/experience/software_developer.html"
             },
             {
                 "name": "IT Technician",
                 "type": "page",
-                "path": "/pages/experience/it_tech.html"
+                "path": "/pages/experience/it_technician.html"
             },
             {
                 "name": "Teaching Assistant",

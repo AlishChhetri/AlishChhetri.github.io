@@ -1,125 +1,124 @@
 {
-  "baseUrl": "https://alishchhetri.github.io/website",
-  "sitemap": [
+  "pages": [
     {
-      "url": "/index.html",
-      "badge": "home",
-      "title": "Home"
+      "path": "/index.html",
+      "title": "Home",
+      "type": "home",
+      "description": "Alish Chhetri — software engineer and data scientist interested in Human-Computer Interaction."
     },
     {
-      "url": "/pages/about.html",
-      "badge": "about",
-      "title": "About Me"
+      "path": "/pages/about.html",
+      "title": "About Me",
+      "type": "about",
+      "description": "Software Engineer & Data Scientist with a focus on Human-Computer Interaction — background, skills, and experience."
     },
     {
-      "url": "/pages/blog.html",
-      "badge": "blog",
-      "title": "Blog"
+      "path": "/pages/blog.html",
+      "title": "Blog",
+      "type": "page",
+      "description": "Academic reflections and digital culture analysis."
     },
     {
-      "url": "/pages/projects.html",
-      "badge": "project",
-      "title": "Projects"
+      "path": "/pages/projects.html",
+      "title": "Projects",
+      "type": "page",
+      "description": "Software engineering and research initiatives."
     },
     {
-      "url": "/pages/blog/bereal.html",
-      "badge": "blog",
-      "title": "The Performance of Authenticity: BeReal and Digital Identity"
+      "path": "/pages/blog/bereal.html",
+      "title": "The Performance of Authenticity: BeReal and Digital Identity",
+      "type": "blog",
+      "description": "An exploration of BeReal's promise of authenticity and how the platform's rules shape user behavior into a different kind of performance."
     },
     {
-      "url": "/pages/blog/queer_gaming.html",
-      "badge": "blog",
-      "title": "Beyond Representation: Queerness in Video Games"
+      "path": "/pages/blog/queer_gaming.html",
+      "title": "Beyond Representation: Queerness in Video Games",
+      "type": "blog",
+      "description": "How queerness in video games extends beyond visible LGBTQ representation into gameplay mechanics and player engagement."
     },
     {
-      "url": "/pages/blog/online_extremism.html",
-      "badge": "blog",
-      "title": "The Intersection of Misogyny and Racism in Online Spaces"
+      "path": "/pages/blog/netflix_algorithms.html",
+      "title": "Race and Algorithms: How Netflix Personalizes the Viewing Experience",
+      "type": "blog",
+      "description": "How Netflix's recommendation algorithm shapes racialized user experiences despite claims of neutrality."
     },
     {
-      "url": "/pages/blog/tradwife_movement.html",
-      "badge": "blog",
-      "title": "The Paradox of Choice: Understanding the Tradwife Movement"
+      "path": "/pages/blog/digital_mourning.html",
+      "title": "Digital Mourning as Activism: From Grief to Social Change",
+      "type": "blog",
+      "description": "How online grief transforms into collective action in movements like Black Lives Matter and the Arab Spring."
     },
     {
-      "url": "/pages/blog/netflix_algorithms.html",
-      "badge": "blog",
-      "title": "Race and Algorithms: How Netflix Personalizes the Viewing Experience"
+      "path": "/pages/projects/pseudo.html",
+      "title": "Pseudo: Simulation of Omni-Model Behavior",
+      "type": "project",
+      "description": "Senior thesis project simulating omni-model behavior by integrating diverse APIs, including LLMs, text-to-image, and text-to-video."
     },
     {
-      "url": "/pages/blog/digital_mourning.html",
-      "badge": "blog",
-      "title": "Digital Mourning as Activism: From Grief to Social Change"
+      "path": "/pages/projects/drone.html",
+      "title": "Autonomous Drone Pathfinding & Collision Avoidance",
+      "type": "project",
+      "description": "Autonomous drone navigation using simulated LiDAR in Unreal Engine 5, with reinforcement learning and genetic algorithms for pathfinding."
     },
     {
-      "url": "/pages/projects/project_one.html",
-      "badge": "project",
-      "title": "Project One"
+      "path": "/pages/projects/typewriter_piano.html",
+      "title": "Typewriter Piano: Multisensory Interaction Design",
+      "type": "project",
+      "description": "Research project accepted at NCUR 2025 merging audio, visual, and interactive elements into an art installation."
     },
     {
-      "url": "/pages/projects/project_two.html",
-      "badge": "project",
-      "title": "Project Two"
+      "path": "/pages/projects/chasten.html",
+      "title": "Chasten: Python Static Analysis Tool",
+      "type": "project",
+      "description": "Python-based static analysis tool using XPath expressions to detect AST patterns, with LLM-powered natural language queries."
     },
     {
-      "url": "/pages/projects/pseudo.html",
-      "badge": "project",
-      "title": "Pseudo: Simulation of Omni-Model Behavior"
+      "path": "/pages/projects/academic_data_science.html",
+      "title": "Academic Data Science",
+      "type": "project",
+      "description": "Educational resources and workshops for learning data science, developed while mentoring students through Data Gators."
     },
     {
-      "url": "/pages/projects/drone.html",
-      "badge": "project",
-      "title": "Autonomous Drone Pathfinding & Collision Avoidance"
+      "path": "/pages/projects/apicenter.html",
+      "title": "APICenter: API Standardization Framework",
+      "type": "project",
+      "description": "A framework that standardizes API interactions across AI and machine learning services, forming the foundation for Pseudo."
     },
     {
-      "url": "/pages/projects/typewriter_piano.html",
-      "badge": "project",
-      "title": "Typewriter Piano: Multisensory Interaction Design"
+      "path": "/pages/experience/acutec.html",
+      "title": "Acutec Precision Aerospace — Post Processing Intern",
+      "type": "experience",
+      "description": "Automated packaging configurations for over 12,000 SKUs at Acutec Precision Aerospace, saving roughly 1,000 hours annually."
     },
     {
-      "url": "/pages/projects/chasten.html",
-      "badge": "project",
-      "title": "Chasten: Python Static Analysis Tool"
+      "path": "/pages/experience/software_developer.html",
+      "title": "Software Developer — Allegheny College",
+      "type": "experience",
+      "description": "Led development of Chasten, a Python-based static analysis tool for detecting AST patterns."
     },
     {
-      "url": "/pages/projects/academic_data_science.html",
-      "badge": "project",
-      "title": "Academic Data Science"
+      "path": "/pages/experience/it_technician.html",
+      "title": "IT Technician — Allegheny College",
+      "type": "experience",
+      "description": "Technical support and network infrastructure for over 1,000 students, faculty, and staff at Allegheny College."
     },
     {
-      "url": "/pages/projects/apicenter.html",
-      "badge": "project",
-      "title": "APICenter: API Standardization Framework"
+      "path": "/pages/experience/teaching_assistant.html",
+      "title": "Teaching Assistant — Allegheny College",
+      "type": "experience",
+      "description": "Tutoring, grading, and lab facilitation for computer science courses in the CIS department."
     },
     {
-      "url": "/pages/experience/acutec.html",
-      "badge": "experience",
-      "title": "Acutec Precision Aerospace - Post Processing Intern"
+      "path": "/pages/experience/acm_secretary.html",
+      "title": "ACM Secretary — Allegheny College",
+      "type": "experience",
+      "description": "Co-founded and led the ACM student chapter, organizing the college's first-ever hackathon."
     },
     {
-      "url": "/pages/experience/software_dev.html",
-      "badge": "experience",
-      "title": "Software Developer - Allegheny College"
-    },
-    {
-      "url": "/pages/experience/it_tech.html",
-      "badge": "experience",
-      "title": "IT Technician - Allegheny College"
-    },
-    {
-      "url": "/pages/experience/teaching_assistant.html",
-      "badge": "experience",
-      "title": "Teaching Assistant - Allegheny College"
-    },
-    {
-      "url": "/pages/experience/acm_secretary.html",
-      "badge": "experience",
-      "title": "ACM Secretary - Allegheny College"
-    },
-    {
-      "url": "/pages/experience/data_gators.html",
-      "badge": "experience",
-      "title": "Data Gators - Allegheny College"
+      "path": "/pages/experience/data_gators.html",
+      "title": "Data Gators — Allegheny College",
+      "type": "experience",
+      "description": "Student-led initiative promoting data science education through hands-on learning experiences."
     }
   ]
 }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race and Algorithms | Alish Chhetri</title>
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <!-- <link rel="icon" href="../../assets/images/logos/favicon.svg" type="favicon"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--NAVIGATION-->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="../../index.html">
+                <img src="../../assets/images/logos/bee_logo.svg" alt="Bee Logo" class="logo">
+            </a>
+        </div>
+
+        <!-- nav-links section -->
+        <div class="nav-links">
+            <a href="../../pages/about.html" class="nav-link">About</a>
+            <a href="../../pages/blog.html" class="nav-link">Blog</a>
+            <a href="../../pages/projects.html" class="nav-link">Projects</a>
+        </div>
+
+        <!--Search bar-->
+        <div class="search-container">
+            <input type="text" placeholder="Search" oninput="performSearch()">
+            <div id="searchResults" class="search-results"></div>
+            <!--  Light/Dark Toggle Switch  -->
+            <div class="toggle-container">
+                <label class="switch">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </nav>
+
+    <div class="base-body">
+        <div class="base-header">
+            <h1>Race and Algorithms: How Netflix Personalizes the Viewing Experience</h1>
+            <h2>Analysis of Meyerend (2022)</h2>
+        </div>
+
+        <div class="base-section">
+            <h3>Personal Notes</h3>
+            <p>This paper examines how Netflix's recommendation algorithm shapes racialized user experiences, particularly among Black subscribers. While Netflix claims its system does not consider race, its algorithmic personalization still produces racialized marketing tactics, such as featuring Black actors in thumbnails regardless of their significance in a film. This phenomenon exemplifies how race emerges in algorithmic systems even when companies attempt to remain "post-demographic." The study situates Netflix's practices within broader discussions on race, technology, and media representation, questioning how algorithms both reflect and reinforce social hierarchies. By analyzing user critiques and digital marketing strategies, Meyerend reveals how Netflix constructs Blackness as a marketing tool, flattening identity into a data-driven metric designed to increase engagement.</p>
+        </div>
+
+        <div class="base-section">
+            <h3>Most Interesting Ideas</h3>
+            <p>The tension between freedom and coercion in algorithmic recommendation systems is particularly compelling. Seaver (2019) describes algorithms as a kind of trap—simultaneously satisfying user preferences while ensuring they stay engaged. This creates an ethical dilemma: are recommendation systems simply optimizing user experience, or are they subtly manipulating attention for corporate gain? Netflix's personalized thumbnails illustrate this tension. If Black users frequently engage with Black-led films, the algorithm might assume they are best marketed to through Black actors—regardless of their actual prominence in a film.</p>
+
+            <p>This strategy, while not overtly malicious, reflects a broader pattern of commodifying Blackness to maintain user retention. The paper raises an essential question: can an algorithm be truly neutral if it is trained on user behavior shaped by historical inequalities? The Netflix case suggests that even when race is not an explicit variable, it can still shape digital experiences in powerful and often problematic ways.</p>
+        </div>
+
+        <div class="base-section">
+            <h3>Confusing Aspects</h3>
+            <p>One of the more complex aspects of the paper is how race emerges in algorithmic systems despite not being an explicit variable. Meyerend argues that Netflix does not classify users by race directly, yet its recommendation system clusters users based on viewing habits, inadvertently reproducing racialized marketing. This occurs because machine learning models detect behavioral patterns that correlate with race, effectively acting as proxy variables even when race itself is omitted. The result is a paradox: Netflix claims neutrality, yet its algorithm still creates race-conscious outputs by optimizing engagement. This raises broader ethical concerns—can a system be considered unbiased if it reconstructs racial categories through indirect means? Meyerend's discussion highlights the limits of algorithmic fairness and how personalization can reinforce, rather than eliminate, social hierarchies.</p>
+        </div>
+
+        <div class="base-section">
+            <h3>Connections to Other Experiences</h3>
+            <h4>Classroom Connections</h4>
+            <p>In my data science courses, we frequently discuss how living in a capitalist surveillance state impacts data collection, marketing, and personal privacy. The Netflix case study fits into this conversation by demonstrating how algorithmic personalization is not just about efficiency—it is about controlling attention. Netflix's algorithm is not designed to recommend content in a neutral way, but to maximize engagement, ultimately shaping user behavior in ways that are difficult to perceive. This aligns with broader critiques of AI-driven decision-making, where machine learning systems reinforce societal biases, even when explicitly designed to avoid them. The paper also connects to discussions on algorithmic accountability. Who is responsible when a recommendation system produces misleading or racially charged outputs? Netflix claims its algorithm is neutral, but as Meyerend shows, neutrality in data-driven systems is often an illusion.</p>
+
+            <h4>Everyday Life</h4>
+            <p>Since I don't use Netflix, I haven't personally encountered this issue, but I have noticed similar patterns on other platforms like TikTok and YouTube, where recommendations seem to target South Asian demographics. For example, even without explicitly engaging with South Asian content, I occasionally receive ads, videos, or suggested accounts related to Bollywood, South Asian fashion, or cultural discussions. This suggests that platforms infer demographic markers based on subtle engagement signals—watch time, interactions, or even the content of videos I scroll past.</p>
+
+            <p>Like Netflix, these platforms don't need to ask for my identity outright; they construct a digital profile based on behavioral patterns, sometimes reinforcing assumptions about my interests that don't necessarily align with my actual preferences. This highlights a broader issue with algorithmic personalization—once a platform decides on a perceived demographic category, it can become difficult to break out of that content bubble, shaping digital experiences in ways that feel both highly curated and subtly coercive.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="mailto:chhetrialish83@gmail.com" target="_blank" title="Email">
+                <img src="../../assets/images/logos/gmail_logo.svg" alt="Email" class="footer-image email-logo">
+            </a>
+            <a href="https://www.linkedin.com/in/alish-chhetri/" target="_blank" title="LinkedIn">
+            <img src="../../assets/images/logos/linkedin_logo.svg" alt="LinkedIn Logo"
+                class="footer-image linkedin-logo">
+            </a>
+            <a href="https://github.com/AlishChhetri" target="_blank" title="GitHub">
+            <img src="../../assets/images/logos/github_logo.svg" alt="GitHub Logo" class="footer-image github-logo">
+            </a>
+        </div>
+    </footer>
+    <script src="../../assets/js/hexagon_background.js"></script>
+    <script src="../../assets/js/hello.js"></script>
+    <script src="../../assets/js/cursor.js"></script>
+    <script src="../../assets/js/search.js"></script>
+    <script src="../../assets/js/theme_toggle.js"></script>
+    <script src="../../assets/js/hexagon_navigation.js"></script>
+</body>
+
+</html>
